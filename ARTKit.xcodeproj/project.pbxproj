@@ -13,6 +13,7 @@
 		107B283B24932837003492A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B283924932837003492A0 /* Main.storyboard */; };
 		107B283D2493283A003492A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107B283C2493283A003492A0 /* Assets.xcassets */; };
 		107B28402493283A003492A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107B283E2493283A003492A0 /* LaunchScreen.storyboard */; };
+		10E7FBFD24937F420054F255 /* dooble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E7FBFC24937F420054F255 /* dooble.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		107B283C2493283A003492A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		107B283F2493283A003492A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		107B28412493283A003492A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E7FBFC24937F420054F255 /* dooble.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = dooble.storyboard; path = ../../../../../../Documents/dooble.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		107B283224932837003492A0 /* ARTKit */ = {
 			isa = PBXGroup;
 			children = (
+				10AB02D82493793B003B3B54 /* Dooble */,
+				10AB02D7249378BB003B3B54 /* Basics */,
 				107B283324932837003492A0 /* AppDelegate.swift */,
 				107B283524932837003492A0 /* art.scnassets */,
-				107B283724932837003492A0 /* ViewController.swift */,
-				107B283924932837003492A0 /* Main.storyboard */,
 				107B283C2493283A003492A0 /* Assets.xcassets */,
 				107B283E2493283A003492A0 /* LaunchScreen.storyboard */,
 				107B28412493283A003492A0 /* Info.plist */,
 			);
 			path = ARTKit;
+			sourceTree = "<group>";
+		};
+		10AB02D7249378BB003B3B54 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				107B283924932837003492A0 /* Main.storyboard */,
+				107B283724932837003492A0 /* ViewController.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		10AB02D82493793B003B3B54 /* Dooble */ = {
+			isa = PBXGroup;
+			children = (
+				10E7FBFC24937F420054F255 /* dooble.storyboard */,
+			);
+			path = Dooble;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				107B283624932837003492A0 /* art.scnassets in Resources */,
+				10E7FBFD24937F420054F255 /* dooble.storyboard in Resources */,
 				107B28402493283A003492A0 /* LaunchScreen.storyboard in Resources */,
 				107B283D2493283A003492A0 /* Assets.xcassets in Resources */,
 				107B283B24932837003492A0 /* Main.storyboard in Resources */,
